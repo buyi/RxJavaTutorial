@@ -9,7 +9,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-import com.buyi.rxjavatutorial.subject.AsyncSubjectDemo;
+import com.buyi.rxjavatutorial.schedule.ScheduleDemo;
 
 public class HomeActivity extends AppCompatActivity {
 
@@ -40,7 +40,10 @@ public class HomeActivity extends AppCompatActivity {
 //        Runnable runnable = new PublishSubjectDemo2();
 //        Runnable runnable = new BehaviorSubjectDemo();
 //        Runnable runnable = new ReplaySubjectDemo();
-        Runnable runnable = new AsyncSubjectDemo();
+//        Runnable runnable = new AsyncSubjectDemo();
+//        Runnable runnable = new LiftObservable();
+//        Runnable runnable = new IntegerToStringObservable();
+        Runnable runnable = new ScheduleDemo();
 
 
         runnable.run();
